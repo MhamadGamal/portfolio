@@ -2,8 +2,12 @@
 
 
   //loader
-  $(window).on('load', function(){
-    $('.loader .loader-square').fadeOut(2000, function(){
-        $(this).parent().fadeOut(2500);
+//   $(window).on('load', function(){
+//     $('.loader .loader-square').fadeOut(2000, function(){
+//         $(this).parent().fadeOut(2500);
+//     });      
+// });
+  //loader
+    $('.loader .loader-square').fadeOut(3000, function(){
+        $(this).parent().fadeOut(3500);
     });      
-});
